@@ -25,7 +25,8 @@ class Deck
   end
 
   def add_card(card)
-    @cards.push(card)
+    # @cards.push(card)
+    @cards << card
   end
 
 end
