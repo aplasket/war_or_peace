@@ -114,7 +114,7 @@ RSpec.describe Turn do
     expect(winner).to eq(player2)
   end
 
-  it "has player 2 winner for war turn" do
+  it "has player2 as winner for war turn" do
     card1 = Card.new(:heart, 'Jack', 11)
     card2 = Card.new(:heart, '10', 10) 
     card3 = Card.new(:heart, '9', 9)
@@ -137,7 +137,7 @@ RSpec.describe Turn do
     expect(winner).to eq(player2)
   end
 
-  it "has player1 as winner for war" do
+  it "has player1 as winner for war turn" do
     card1 = Card.new(:heart, 'Jack', 11)
     card2 = Card.new(:heart, '10', 10) 
     card3 = Card.new(:heart, '9', 9)
